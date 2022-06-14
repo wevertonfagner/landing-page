@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Dancing+Script&family=Joan&display=swap');
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: url("img/541374.jpg")no-repeat right top fixed;
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-img {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Joan', serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 3px double white;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo-principal-titulo {
+    height: 150px;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 35px;
+}
+
+.conteudo-principal-botao {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 20px;
+    font-family: 'Joan', serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: gold;
+}
+
+.conteudo-principal-img {
+    height: 400px;
+    padding: 20px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 3px dotted white;
+    padding-top: 48px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Joan', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.rodape {
+    padding: 28px;
+    border-top: 3px double white;
+}
+
+.rodape-img {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
